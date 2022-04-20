@@ -1,4 +1,5 @@
 drop table yellow_taxi.taxi_data;
+
 create external table if not exists yellow_taxi.taxi_data
 (
     vendor_id string,
