@@ -1,5 +1,3 @@
-set hive.execution.engine=tez;
-
 insert into yellow_taxi.vendor_id
 select 1, 'Creative Mobile Technologies, LLC'
 union all
